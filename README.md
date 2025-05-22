@@ -99,14 +99,12 @@ Categorized risk level: Low, Moderate, or High
 ## 🎨 Screenshots
 Replace these placeholders with actual image links after uploading your screenshots to the repository or an image host.
 
-🏠 Home Page
-
-
 📝 Input Form
-
+![Input Form](Screenshot%202025-05-22%20215941.png)
 📊 Result Page
-
+![Result Page](Screenshot%202025-05-22%20215956.png)
 📂 File Structure
+```bash
 php
 Copy
 Edit
@@ -121,7 +119,9 @@ heart-level-prediction/
 │   └── styles.css                              # Custom CSS styling
 ├── myheart_risk_prediction_regression_model.sav # Pre-trained ML model
 ├── requirements.txt                            # Required Python libraries
-└── README.md                                   # Project documentation
+└── README.md
+                                  # Project documentation
+```
 🤝 Contributing
 Contributions are welcome! 🚀
 If you'd like to improve or fix something, follow these steps:
