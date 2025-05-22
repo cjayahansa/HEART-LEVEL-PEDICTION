@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}" />
+        <title>HEART LEVEL PEDICTION</title>
+    </head>
+    <body>
+        <h1>HEART LEVEL PEDICTION</h1>
+        <form method="post" action="/submit1">
+            <p>name<input type="text" name="name" /></p>
+            <p>Gender(1-male,2-female) <input type="text" name="Gender" /></p>
+            <p>age<input type="text" name="age" /></p>
+            <p>TC(mg/dl)<input type="text" name="TC" /></p>
+            <p>HDL(mg/dl)<input type="text" name="HDL" /></p>
+            <p>Smoke(1-yes,0-no)<input type="text" name="Smoke" /></p>
+            <p>Blood Pressure Medication(1/2)<input type="text" name="BPM" /></p>
+            <p>Diabetes(1-yes/0-no)<input type="text" name="Diabetes" /></p>
+            <p><input type="submit" value="submit form" /></p>
+        </form>
+    </body>
+</html>

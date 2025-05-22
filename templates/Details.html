@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <link rel="stylesheet" href="{{ url_for('static', filename='style1.css') }}" />
+        <title>Title</title>
+    </head>
+    <body>
+        <h1>Name:{{result.name }}</h1>
+        <h1>Gender:{{ result.Gender }}</h1>
+        <h1>age:{{ result.age }}</h1>
+        <h1>TC:{{result.TC }}</h1>
+        <h1>HDL:{{ result.HDL }}</h1>
+        <h1>Smoke:{{ result.Smoke }}</h1>
+        <h1>BPM:{{ result.BPM }}</h1>
+        <h1>Diabetes:{{ result.Diabetes }}</h1>
+        <h1>Heart Disease Prediction</h1>
+        <h1>
+            Risk: {{ result.risk }}<br />
+            <h1>Heart Disease Level: {{ result.risk_label }}</h1>
+        </h1>
+    </body>
+</html>
