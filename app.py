@@ -10,14 +10,14 @@ model = joblib.load("myheart_risk_prediction_regression_model.sav")
 app = Flask(__name__)
 #emty app created
 
-@app.route('/')#web site eke url eke hama url ekata yatin aniwa funtion ekk thiyenne one
+@app.route('/cheak')#web site eke url eke hama url ekata yatin aniwa funtion ekk thiyenne one
 def hello_world():  # put application's code here
     return 'Hello World chamindu!' #function ekak thiyenne eka return karanne
 @app.route('/home')
 def home():
     return render_template('home.html')
 
-@app.route('/form')
+@app.route('/')
 def form():
     return render_template('form1.html')
 
