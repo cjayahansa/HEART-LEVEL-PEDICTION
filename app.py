@@ -75,4 +75,7 @@ def form_submit1():
     #return render_template('Details.html', name=name, Gender=Gender, age=age, TC=TC, HDL=HDL, SBP=SBP, Smoke=Smoke, BPM=BPM, Diabetes=Diabetes)
 
 #run the app
-app.run(debug=True)#meken karanne funtion eka run karana eka
+#app.run(debug=True)#meken karanne funtion eka run karana eka
+if __name__ == "__main__":
+    app.run(host="0.0.0.0", port=8000)
+
